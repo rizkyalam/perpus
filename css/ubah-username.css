@@ -1,0 +1,49 @@
+*{
+  margin:0;
+  padding: 0;
+}
+html, body {
+  background-color: white;
+  height: 90%;
+}
+
+.container{
+  min-height: 100%;
+  margin-top:3%;
+}
+.row{
+  overflow: auto;
+}
+.page-footer{
+  color:white;
+  position: relative;
+  height: 57px;
+  clear:both;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container{
+    padding:15px;
+    width:100%;
+    margin-top:3%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    padding:15px;
+    width:100%;
+    margin-top:5%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container{
+    padding:15px;
+    width:100%;
+    margin-top:6%;
+    margin-bottom:6%;
+  }
+}

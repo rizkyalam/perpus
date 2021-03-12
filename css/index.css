@@ -1,0 +1,68 @@
+body {
+  background-color: #282c34;
+  width: 100%;
+  height: 100%;
+}
+h3{
+  color:white;
+  text-align: center;
+  margin-top: 5%;
+}
+.container{
+  background-color: white;
+  padding:15px;
+  width:30%;
+  margin-top:3%;
+  border-radius: 4px;
+}
+.btn{
+width: 40%;
+}
+.daftar{
+  margin-top:3%;
+}
+.daftar p{
+  text-align: center;
+  color: #c3c3c3;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container{
+    background-color: white;
+    padding:15px;
+    width:40%;
+    margin-top:3%;
+    border-radius: 4px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    background-color: white;
+    padding:15px;
+    width:50%;
+    margin-top:5%;
+    border-radius: 4px;
+  }
+  .daftar{
+    margin-top:5%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  h3{
+    color:white;
+    text-align: center;
+    margin-top: 10%;
+  }
+  .container{
+    background-color: white;
+    padding:15px;
+    width:95%;
+    margin-top:10%;
+    border-radius: 4px;
+  }
+  .daftar{
+    margin-top:10%;
+  }
+}
