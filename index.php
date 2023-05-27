@@ -1,5 +1,8 @@
 <?php
 session_start();
+/*
+https://www.w3schools.com/php/php_sessions.asp
+*/
 if(isset($_SESSION["login"]) ){
   header("Location: home.php");
   exit();
